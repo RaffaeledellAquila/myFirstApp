@@ -8,6 +8,6 @@ import { RouterModule } from '@angular/router';
   templateUrl: './home-component.component.html',
   styleUrl: './home-component.component.css'
 })
-export class HomeComponentComponent {
+export class HomeComponent {
 
 }
