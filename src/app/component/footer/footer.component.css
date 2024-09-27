@@ -1,7 +1,10 @@
 
 footer {
-    background-color: #45be15; 
-    color: white;
+    background-color: #7f3ba7; 
+    color: rgb(219, 219, 219);
     padding: 20px;
     text-align: center;
+  }
+  p{
+    font-size: 20px;
   }

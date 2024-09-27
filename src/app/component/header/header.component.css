@@ -1,14 +1,20 @@
 header {
-    background-color: #b1b1b1;
+    background-color: #000000;
     padding-left: 20px;
     padding-right: 20px;
+ 
+  }
+  h1{
+    color: #be45ce;
+
+    font-weight: 500;
   }
   .container {
-    max-width: 960px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
   }
   nav ul {
     list-style: none;
@@ -21,16 +27,18 @@ header {
   }
   nav a {
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
-
-
+    color: #00c500;
+    font-weight: 600;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    color: #be45ce;
   }
   .logo {
-    width: 60px; /* Imposta la larghezza desiderata */
-    height: 60px; /* Imposta l'altezza uguale alla larghezza per un'immagine quadrata */
+    width: 72px; /* Imposta la larghezza desiderata */
+    height: 72px; /* Imposta l'altezza uguale alla larghezza per un'immagine quadrata */
     margin-right: 5px;
-    background-image: url('../../../img/aquila.png');
+    background-image: url('../../../img/logo2.png');
     background-size: cover;
     background-position: center;
   }

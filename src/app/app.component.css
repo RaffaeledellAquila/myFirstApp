@@ -4,8 +4,15 @@
     min-height: 100vh; /* Assicura che il wrapper occupi almeno l'intera altezza dello schermo */
     font-family:   sans-serif; 
     color: rgb(0, 0, 0); 
+    border: 2px solid red;
 }
-  main {
+h5{
+  color:red;
+}
+
+main {
+    padding-left: 4%;
+    padding-right: 4%;
     flex: 1; /* Il main occuperà lo spazio rimanente */
   }
 
