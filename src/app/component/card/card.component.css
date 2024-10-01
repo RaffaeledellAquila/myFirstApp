@@ -1,0 +1,18 @@
+.main{
+    border: 2px solid rgb(237, 100, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;;
+    font-size: 15px;
+    flex-direction: row;
+    margin-bottom: 2%;
+
+}
+
+.card{
+    margin: 2%;
+}
+h3{
+    text-align: center;
+}

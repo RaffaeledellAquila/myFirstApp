@@ -1,0 +1,29 @@
+<div class="main">
+  <div class="container">
+    <h5>Tabella con dati JSON mock</h5>
+
+    <table class="table table-sm table-dark">
+    
+      <thead>
+        <tr>
+          <th scope="col" class="p-3">#</th>
+          <th scope="col" class="p-3">Nome</th>
+          <th scope="col" class="p-3">Cognome</th>
+          <th scope="col" class="p-3">Età</th>
+        </tr>
+      </thead>
+    
+      <tbody>
+        <!-- la classe p-1, p-2, p-3 sono di botstap rendono la riga piu alta o piu bassa -->
+        <tr *ngFor="let persona of persone">
+          <th class="p-3" scope="row">{{ persona.id }}</th>
+          <td class="p-3">{{ persona.nome }}</td>
+          <td class="p-3">{{ persona.cognome }}</td>
+          <td class="p-3">{{ persona.eta }}</td>
+        </tr>
+      </tbody>
+    
+    </table>
+
+  </div>
+</div>
