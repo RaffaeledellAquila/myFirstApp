@@ -17,7 +17,12 @@ export class TabellaService {
     { id: 1, nome: 'Mario', cognome: 'Rossi', eta: 30 },
     { id: 2, nome: 'Luigi', cognome: 'Verdi', eta: 25 },
     //anche cosi
-    { "id": 3, "nome": "Peach", "cognome": "Toadetta", "eta": 28 }
+    { "id": 3, "nome": "Peach", "cognome": "Toadetta", "eta": 28 },
+    {"id": 4, "nome": "Daisy", "cognome": "Daisy", "eta": 22},
+    {"id": 5, "nome": "Bowser", "cognome": "Koopa", "eta": 35},
+    {"id": 6, "nome": "Toad", "cognome": "Toad", "eta": 31},
+    {"id": 7, "nome": "Yoshi", "cognome": "Yoshi", "eta": 33}
+
     // altri dati ...
   ];
 
